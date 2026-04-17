@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'spacex';
+  src: url('/tipografias/SpaceX.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-spacex: "spacex", sans-serif;
+}
