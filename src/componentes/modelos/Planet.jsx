@@ -14,7 +14,7 @@ export function Planeta(props) {
 
   return (
     <group ref={pivot} {...props} dispose={null}>
-      <group  position={[0, 0, 0]} // 👈 centrado
+      <group  position={[0, 0, 0]}
       rotation={[-Math.PI / 2, 0, 0]}
       scale={2}>
         <mesh geometry={nodes.COMBINE_LP_LAM_0.geometry} material={materials.material} />

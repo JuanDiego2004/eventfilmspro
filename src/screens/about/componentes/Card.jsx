@@ -21,13 +21,13 @@ export default function CardServicio({ titulo, descripcion, tag, video, index, e
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10" />
 
       <div className="absolute bottom-0 left-0 right-0 p-3 backdrop-blur-sm bg-black/20 border-t border-white/10">
-        <span className="text-orange-400 text-[9px] uppercase tracking-[0.2em] font-semibold block mb-0.5">
+        <span className="text-white text-[13px] uppercase tracking-[0.2em] font-semibold block mb-0.5">
           {tag}
         </span>
-        <h3 className="text-white font-bold text-sm leading-tight">
+        <h3 className="text-white font-bold text-[16] leading-tight">
           {titulo}
         </h3>
-        <p className="text-white/60 text-[10px] leading-relaxed mt-0.5 line-clamp-2">
+        <p className="text-white/60 text-[15px] leading-relaxed mt-0.5 line-clamp-2">
           {descripcion}
         </p>
       </div>

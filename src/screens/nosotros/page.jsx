@@ -61,7 +61,7 @@ export default function Nosotros() {
               <ADN
                 scale={
                   bp === "escritorio"
-                    ? 1.3
+                    ? 5
                     : bp === "laptop"
                       ? 3
                       : 1

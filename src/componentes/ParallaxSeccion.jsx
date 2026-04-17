@@ -5,7 +5,6 @@ export function ParallaxSeccion( { children, bg, index, scrollY }) {
     const start = index * vh;
     const end = start + vh;
 
-    //Efecto suave al hacer Scroll
     const yContentido = useTransform(scrollY, [start, end], [0, -60]);
     const opacidad = useTransform(scrollY, [start, start + vh * 0.5], [1,0])
 
